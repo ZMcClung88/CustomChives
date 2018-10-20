@@ -3,8 +3,14 @@ import { Jumbotron, Button } from 'reactstrap';
 
 const JumbotronComponent = props => {
   return (
-    <div>
-      <Jumbotron>
+    <div
+      style={{
+        border: '1px solid red',
+        display: 'flex',
+        justifyContent: 'center'
+      }}
+    >
+      <Jumbotron style={{ border: '1px solid green', width: '70vw' }}>
         <h1 className="display-3">Hello, world!</h1>
         <p className="lead">
           This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured content
