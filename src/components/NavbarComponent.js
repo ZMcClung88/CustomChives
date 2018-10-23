@@ -6,23 +6,49 @@ const NavbarComponent = props => {
     <div
       style={{
         display: 'flex',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        flexWrap: 'wrap'
       }}
     >
-      <Navbar style={{ width: '70vw' }}>
-        <ul
-          style={{
-            listStyle: 'none',
-            display: 'flex',
-            flexDirection: 'row',
-            justifyContent: 'flexStart'
-          }}
-        >
-          <li style={{ marginRight: '5%' }}>Home</li>
-          <li style={{ marginRight: '5%' }}>About</li>
-          <li style={{ marginRight: '5%' }}>Contact</li>
-          <li style={{ marginRight: '5%' }}>Blog</li>
-        </ul>
+      <Navbar style={{ width: '70vw', display: 'flex', justifyContent: 'space-between' }}>
+        <div style={{ width: '40%' }}>
+          <ul
+            style={{
+              listStyle: 'none',
+              display: 'flex',
+              flexDirection: 'row',
+              justifyContent: 'flexStart'
+            }}
+          >
+            <li style={{ marginRight: '5%' }}>
+              <a>Bandcamp</a>
+            </li>
+            <li style={{ marginRight: '5%' }}>
+              <a>Facebook</a>
+            </li>
+            <li style={{ marginRight: '5%' }}>
+              <a>Instagram</a>
+            </li>
+            <li style={{ marginRight: '5%' }}>
+              <a>Blog</a>
+            </li>
+          </ul>
+        </div>
+
+        <div style={{ width: '20%' }}>
+          <ul
+            style={{
+              listStyle: 'none',
+              display: 'flex',
+              flexDirection: 'row',
+              justifyContent: 'flexStart'
+            }}
+          >
+            <li style={{ marginRight: '5%' }}>
+              <a>Contact</a>
+            </li>
+          </ul>
+        </div>
       </Navbar>
     </div>
   );

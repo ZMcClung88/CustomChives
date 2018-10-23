@@ -1,5 +1,6 @@
 import React from 'react';
 import { Jumbotron, Button } from 'reactstrap';
+import ChivesLogo from '../media/chives_logo.JPG';
 
 const JumbotronComponent = props => {
   return (
@@ -11,7 +12,8 @@ const JumbotronComponent = props => {
       }}
     >
       <Jumbotron style={{ width: '70vw' }}>
-        <h1 className="display-3">Hello, world!</h1>
+        <img src={ChivesLogo} style={{ width: '70vw' }} />
+        {/* <h1 className="display-3">Hello, world!</h1>
         <p className="lead">
           This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured content
           or information.
@@ -20,7 +22,7 @@ const JumbotronComponent = props => {
         <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
         <p className="lead">
           <Button color="primary">Learn More</Button>
-        </p>
+        </p> */}
       </Jumbotron>
     </div>
   );
