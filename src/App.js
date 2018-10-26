@@ -12,8 +12,13 @@ class App extends Component {
       <div className="App">
         <JumbotronComponent />
         <NavbarComponent />
-        <div style={{ width: '40%', marginLeft: '15%' }}>
-          <Bio />
+        <div style={{ width: '70%', marginLeft: '15%', border: '2px solid green', display: 'flex' }}>
+          <div style={{ padding: '20px' }}>
+            <Bio />
+          </div>
+          <div style={{ padding: '20px' }}>
+            <Bio />
+          </div>
         </div>
       </div>
     );
