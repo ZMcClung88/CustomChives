@@ -5,6 +5,7 @@ import './App.css';
 import JumbotronComponent from './components/JumbotronComponent';
 import NavbarComponent from './components/NavbarComponent';
 import Bio from './components/BioComponent';
+import BandMatesComponent from './components/BandMatesComponent';
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
         <div style={{ width: '70%', marginLeft: '15%', border: '2px solid green', display: 'flex' }}>
           <div style={{ padding: '20px' }}>
             <Bio />
+            {/* <BandMatesComponent /> */}
           </div>
           <div style={{ padding: '20px' }}>
             <Bio />
