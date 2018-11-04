@@ -16,7 +16,7 @@ class App extends Component {
         <div style={{ width: '70%', marginLeft: '15%', border: '2px solid green', display: 'flex' }}>
           <div style={{ padding: '20px' }}>
             <Bio />
-            {/* <BandMatesComponent /> */}
+            <BandMatesComponent />
           </div>
           <div style={{ padding: '20px' }}>
             <Bio />
