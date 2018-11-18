@@ -5,7 +5,7 @@ import './App.css';
 import JumbotronComponent from './components/JumbotronComponent';
 import NavbarComponent from './components/NavbarComponent';
 import Bio from './components/BioComponent';
-import BandMatesComponent from './components/BandMatesComponent';
+import BandMates from './components/BandMatesComponent';
 
 class App extends Component {
   render() {
@@ -14,11 +14,11 @@ class App extends Component {
         <JumbotronComponent />
         <NavbarComponent />
         <div style={{ width: '70%', marginLeft: '15%', border: '2px solid green', display: 'flex' }}>
-          <div style={{ padding: '20px' }}>
+          <div style={{ border: '1px solid red' }}>
             <Bio />
-            <BandMatesComponent />
+            <BandMates />
           </div>
-          <div style={{ padding: '20px' }}>
+          <div style={{ border: '1px solid red' }}>
             <Bio />
           </div>
         </div>

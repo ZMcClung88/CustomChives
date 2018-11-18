@@ -7,8 +7,7 @@ const Bio = props => {
         Donec a dignissim metus, sed condimentum mi. Suspendisse a mi vestibulum, ornare sem at, dapibus dui. Nullam
         nisi erat, convallis et lorem ac, tincidunt accumsan tellus. Lorem ipsum dolor sit amet, consectetur adipiscing
         elit. Nulla et nisi luctus, sollicitudin tortor id, interdum orci. Aenean id nibh vel erat malesuada lacinia
-        vitae et magna. Donec quis orci vitae sapien tincidunt auctor a non augue. Morbi blandit odio libero, id
-        bibendum augue ultricies nec. Nullam condimentum ante ligula, non rutrum lacus condimentum ut.
+        vitae et magna. Donec quis orci vitae sapien tincidunt auctor a non augue.
       </p>
     </div>
   );
