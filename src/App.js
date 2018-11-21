@@ -6,6 +6,7 @@ import JumbotronComponent from './components/JumbotronComponent';
 import NavbarComponent from './components/NavbarComponent';
 import Bio from './components/BioComponent';
 import BandMates from './components/BandMatesComponent';
+import LiveDatesComponent from './components/DatesComponent';
 
 class App extends Component {
   render() {
@@ -25,6 +26,7 @@ class App extends Component {
           <div style={{ border: '1px solid red', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
             <Bio />
             <BandMates />
+            <LiveDatesComponent />
           </div>
           <div style={{ border: '1px solid red' }}>
             <Bio />
