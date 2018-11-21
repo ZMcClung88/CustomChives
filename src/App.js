@@ -7,6 +7,7 @@ import NavbarComponent from './components/NavbarComponent';
 import Bio from './components/BioComponent';
 import BandMates from './components/BandMatesComponent';
 import LiveDatesComponent from './components/DatesComponent';
+import SongComponent from './components/SongComponent';
 
 class App extends Component {
   render() {
@@ -30,6 +31,7 @@ class App extends Component {
           </div>
           <div style={{ border: '1px solid red' }}>
             <Bio />
+            <SongComponent />
           </div>
         </div>
       </div>
