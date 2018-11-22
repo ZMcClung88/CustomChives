@@ -32,6 +32,11 @@ class App extends Component {
           <div style={{ border: '1px solid red' }}>
             <Bio />
             <SongComponent />
+            <SongComponent />
+            <SongComponent />
+            <SongComponent />
+            <SongComponent />
+            <SongComponent />
           </div>
         </div>
       </div>
