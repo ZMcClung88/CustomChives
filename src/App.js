@@ -24,19 +24,25 @@ class App extends Component {
             justifyContent: 'center'
           }}
         >
-          <div style={{ border: '1px solid red', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+          <div
+            style={{
+              border: '1px solid red',
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'center',
+              width: '50%'
+            }}
+          >
             <Bio />
             <BandMates />
             <LiveDatesComponent />
           </div>
-          <div style={{ border: '1px solid red' }}>
-            <Bio />
+          <div style={{ border: '1px solid red', width: '50%' }}>
             <SongComponent />
             <SongComponent />
             <SongComponent />
             <SongComponent />
             <SongComponent />
-            // <SongComponent />
           </div>
         </div>
       </div>

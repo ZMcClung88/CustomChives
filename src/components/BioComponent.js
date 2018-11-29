@@ -2,7 +2,7 @@ import React from 'react';
 
 const Bio = props => {
   return (
-    <div>
+    <div style={{ padding: '10px' }}>
       <p>
         Donec a dignissim metus, sed condimentum mi. Suspendisse a mi vestibulum, ornare sem at, dapibus dui. Nullam
         nisi erat, convallis et lorem ac, tincidunt accumsan tellus. Lorem ipsum dolor sit amet, consectetur adipiscing
