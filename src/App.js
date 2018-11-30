@@ -20,8 +20,8 @@ class App extends Component {
             width: '70%',
             marginLeft: '15%',
             border: '2px solid green',
-            display: 'flex',
-            justifyContent: 'center'
+            display: 'flex'
+            // justifyContent: 'center'
           }}
         >
           <div
@@ -29,7 +29,7 @@ class App extends Component {
               border: '1px solid red',
               display: 'flex',
               flexDirection: 'column',
-              justifyContent: 'center',
+              // justifyContent: 'center',
               width: '50%'
             }}
           >
