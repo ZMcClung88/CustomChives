@@ -44,6 +44,9 @@ class App extends Component {
             <SongComponent />
             <SongComponent />
             <SongComponent />
+            <SongComponent />
+            <SongComponent />
+            <SongComponent />
           </div>
         </div>
       </div>
