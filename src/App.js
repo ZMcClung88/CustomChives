@@ -9,6 +9,13 @@ import BandMates from './components/BandMatesComponent';
 import LiveDatesComponent from './components/DatesComponent';
 import SongComponent from './components/SongComponent';
 
+import img1 from './media/albumart1.jpeg';
+import img2 from './media/albumart2.jpeg';
+import img3 from './media/albumart3.jpeg';
+import img4 from './media/albumart4.jpeg';
+import img5 from './media/albumart5.jpeg';
+import img6 from './media/albumart6.jpeg';
+
 class App extends Component {
   render() {
     return (
@@ -38,15 +45,12 @@ class App extends Component {
             <LiveDatesComponent />
           </div>
           <div style={{ border: '1px solid red', width: '50%' }}>
-            <SongComponent />
-            <SongComponent />
-            <SongComponent />
-            <SongComponent />
-            <SongComponent />
-            <SongComponent />
-            <SongComponent />
-            <SongComponent />
-            <SongComponent />
+            <SongComponent img={img1} />
+            <SongComponent img={img2} />
+            <SongComponent img={img3} />
+            <SongComponent img={img4} />
+            <SongComponent img={img5} />
+            <SongComponent img={img6} />
           </div>
         </div>
       </div>
