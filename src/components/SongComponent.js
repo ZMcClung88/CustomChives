@@ -10,9 +10,9 @@ const SongComponent = props => {
       </div>
 
       <div style={{ width: '75%', display: 'flex', flexDirection: 'column' }} className="right">
-        <div className="top" style={{ border: '3px solid blue', height: '50%' }}>
-          <p>Song Title</p>
-          <p>by Chives</p>
+        <div className="top" style={{ height: '50%', display: 'flex', flexDirection: 'column' }}>
+          <p style={{ marginTop: 1, paddingLeft: 5, marginBottom: 0, display: 'flex' }}>Song Title</p>
+          <p style={{ marginTop: 0, paddingLeft: 5, display: 'flex' }}>by Chives</p>
         </div>
 
         <div className="bottom" style={{ border: '3px solid orange', height: '50%' }}>
