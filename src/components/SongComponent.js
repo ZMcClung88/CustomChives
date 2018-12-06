@@ -15,8 +15,19 @@ const SongComponent = props => {
           <p style={{ marginTop: 5, paddingLeft: 5, display: 'flex' }}>by Chives</p>
         </div>
 
-        <div className="bottom" style={{ border: '3px solid orange', height: '50%' }}>
-          <button style={{ height: '20%', width: '100px' }}>Play</button>
+        <div
+          className="bottom"
+          style={{
+            border: '3px solid orange',
+            height: '50%',
+            display: 'flex',
+            alignItems: 'center',
+            paddingLeft: '3px'
+          }}
+        >
+          <div>
+            <button style={{ height: '40px', width: '40px' }}>Play</button>
+          </div>
         </div>
       </div>
     </div>
