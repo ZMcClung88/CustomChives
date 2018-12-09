@@ -11,7 +11,17 @@ const SongComponent = props => {
       </div>
 
       <div style={{ width: '75%', display: 'flex', flexDirection: 'column' }} className="right">
-        <div className="top" style={{ height: '50%', display: 'flex', flexDirection: 'column' }}>
+        <div
+          className="top"
+          style={{
+            height: '50%',
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'center',
+            alignSelf: 'center'
+          }}
+        >
           <p style={{ marginTop: 1, paddingLeft: 5, marginBottom: 0, display: 'flex' }}>Song Title</p>
           <p style={{ marginTop: 5, paddingLeft: 5, display: 'flex' }}>by Chives</p>
         </div>
@@ -31,7 +41,7 @@ const SongComponent = props => {
           </div>
 
           <div>
-            <ReactPlayer url="#" playing />
+            <ReactPlayer url={props.songUrl} />
           </div>
         </div>
       </div>
