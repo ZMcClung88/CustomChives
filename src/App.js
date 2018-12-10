@@ -28,14 +28,14 @@ class App extends Component {
           style={{
             width: '70%',
             marginLeft: '15%',
-            border: '2px solid green',
+            // border: '2px solid green',
             display: 'flex'
             // justifyContent: 'center'
           }}
         >
           <div
             style={{
-              border: '1px solid red',
+              // border: '1px solid red',
               display: 'flex',
               flexDirection: 'column',
               // justifyContent: 'center',

@@ -29,7 +29,7 @@ const SongComponent = props => {
         <div
           className="bottom"
           style={{
-            border: '3px solid orange',
+            // border: '3px solid orange',
             height: '50%',
             display: 'flex',
             alignItems: 'center',
