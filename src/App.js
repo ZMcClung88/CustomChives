@@ -52,7 +52,7 @@ class App extends Component {
             <SongComponent img={img3} />
             <SongComponent img={img4} />
             <SongComponent img={img5} />
-            <SongComponent img={img6} />
+            // <SongComponent img={img6} />
           </div>
         </div>
       </div>
