@@ -17,6 +17,7 @@ import img5 from './media/albumart5.jpeg';
 import img6 from './media/albumart6.jpeg';
 
 import song1 from './media/song.mp3';
+import songOpus from './media/05 Opus (Final Master).wav';
 
 class App extends Component {
   render() {
@@ -47,12 +48,12 @@ class App extends Component {
             <LiveDatesComponent />
           </div>
           <div style={{ border: '1px solid red', width: '50%' }}>
-            <SongComponent img={img1} songUrl={song1} />
+            <SongComponent img={img1} songUrl={songOpus} playing />
             <SongComponent img={img2} />
             <SongComponent img={img3} />
             <SongComponent img={img4} />
             <SongComponent img={img5} />
-            // <SongComponent img={img6} />
+            <SongComponent img={img6} />
           </div>
         </div>
       </div>
