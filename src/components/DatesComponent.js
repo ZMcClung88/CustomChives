@@ -30,6 +30,9 @@ const LiveDatesComponent = props => {
           <li>11/23 - Melody Inn</li>
           <li>11/25 - Vogue</li>
           <li>11/26 - Egyptian Room</li>
+          <li>11/23 - Melody Inn</li>
+          <li>11/25 - Vogue</li>
+          <li>11/26 - Egyptian Room</li>
         </ul>
       </div>
     </div>

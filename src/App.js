@@ -17,7 +17,7 @@ import img5 from './media/albumart5.jpeg';
 import img6 from './media/albumart6.jpeg';
 
 import song1 from './media/song.mp3';
-import songOpus from './media/05 Opus (Final Master).wav';
+import song2 from './media/05 Opus (Final Master).wav';
 
 class App extends Component {
   render() {
@@ -30,8 +30,8 @@ class App extends Component {
             width: '70%',
             marginLeft: '15%',
             // border: '2px solid green',
-            display: 'flex'
-            // justifyContent: 'center'
+            display: 'flex',
+            justifyContent: 'space-around'
           }}
         >
           <div
@@ -40,15 +40,15 @@ class App extends Component {
               display: 'flex',
               flexDirection: 'column',
               // justifyContent: 'center',
-              width: '50%'
+              width: '45%'
             }}
           >
             <Bio />
             <BandMates />
             <LiveDatesComponent />
           </div>
-          <div style={{ border: '1px solid red', width: '50%' }}>
-            <SongComponent img={img1} songUrl={songOpus} playing />
+          <div style={{ border: '1px solid red', width: '45%' }}>
+            <SongComponent img={img1} songUrl={song2} playing />
             <SongComponent img={img2} />
             <SongComponent img={img3} />
             <SongComponent img={img4} />
