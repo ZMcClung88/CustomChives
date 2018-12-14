@@ -50,19 +50,6 @@ const BandMatesComponent = props => {
       >
         <p>name</p>
       </div>
-      <div
-        style={{
-          height: '100px',
-          width: '100px',
-          border: '2px solid orange',
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          borderRadius: '50%'
-        }}
-      >
-        <p>name</p>
-      </div>
     </div>
   );
 };
