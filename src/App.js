@@ -36,7 +36,7 @@ class App extends Component {
         >
           <div
             style={{
-              // border: '1px solid red',
+              border: '1px solid red',
               display: 'flex',
               flexDirection: 'column',
               // justifyContent: 'center',
@@ -48,7 +48,7 @@ class App extends Component {
             <LiveDatesComponent />
           </div>
           <div style={{ border: '1px solid red', width: '45%' }}>
-            <SongComponent img={img1} songUrl={song2} playing />
+            <SongComponent img={img1} songUrl={song2} />
             <SongComponent img={img2} />
             <SongComponent img={img3} />
             <SongComponent img={img4} />
