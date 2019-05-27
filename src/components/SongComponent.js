@@ -39,10 +39,6 @@ const SongComponent = props => {
           <div>
             <button style={{ height: '40px', width: '40px' }}>Play</button>
           </div>
-
-          <div>
-            <ReactPlayer url={props.songUrl} playing={this.state.playing} />
-          </div>
         </div>
       </div>
     </div>

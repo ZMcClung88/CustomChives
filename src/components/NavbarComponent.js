@@ -8,7 +8,10 @@ const NavbarComponent = props => {
         display: 'flex',
         justifyContent: 'center',
         flexWrap: 'wrap',
-        border: '1px solid blue'
+        // border: '1px solid blue',
+        color: '#fff',
+        backgroundColor: '#000',
+        marginTop: '-5px'
       }}
     >
       <Navbar style={{ width: '70vw', display: 'flex', justifyContent: 'space-between' }}>

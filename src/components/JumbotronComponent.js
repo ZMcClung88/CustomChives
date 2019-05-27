@@ -1,6 +1,6 @@
 import React from 'react';
 import { Jumbotron, Button } from 'reactstrap';
-import ChivesLogo from '../media/chives_logo.JPG';
+import ChivesLogo from '../media/chives_logo.jpg';
 
 const JumbotronComponent = props => {
   return (
@@ -11,8 +11,8 @@ const JumbotronComponent = props => {
         justifyContent: 'center'
       }}
     >
-      <Jumbotron style={{ width: '70vw' }}>
-        <img src={ChivesLogo} style={{ width: '70vw' }} />
+      <Jumbotron style={{ width: '100vw' }}>
+        <img src={ChivesLogo} style={{ width: '100vw' }} />
         {/* <h1 className="display-3">Hello, world!</h1>
         <p className="lead">
           This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured content
